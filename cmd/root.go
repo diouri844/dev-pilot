@@ -26,4 +26,5 @@ func Execute() error {
 func init() {
 	// Register subcommands here
 	rootCmd.AddCommand(initCmd)
+	rootCmd.AddCommand(gitCmd)
 }
